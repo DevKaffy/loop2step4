@@ -1,0 +1,111 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #4b4b73;
+  display: flex;
+}
+main {
+  margin: 5rem auto;
+  /* background-color: red; */
+}
+.navContent {
+  gap: 0.1rem;
+  display: flex;
+  align-items: center;
+}
+.nav {
+  height: 3.5rem;
+  width: 4.5rem;
+  background-color: #363549;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav:hover {
+  background-color: #2d2d39;
+  cursor: pointer;
+}
+.nav-diff {
+  background-color: #212022;
+  height: 4.5rem;
+  width: 5.5rem;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  outline: none;
+  margin: 0 -0.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.food-items {
+  background-color: white;
+  width: 18rem;
+  margin-left: 2.82rem;
+  border-radius: 0 0 2px 2px;
+}
+.food-location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.food {
+  height: 10rem;
+  width: 18rem;
+  position: relative;
+}
+.food img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2px 2px 0 0;
+}
+.location {
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+.location img {
+  height: 1rem;
+  width: 1rem;
+  margin-right: 0.1rem;
+}
+.place {
+  position: absolute;
+  top: 4rem;
+  /* left: 2rem; */
+}
+.place .placep {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 8rem;
+  margin-left: 1.5rem;
+  margin-bottom: -0.8rem;
+}
+.place p {
+  color: white;
+  font-size: 0.8rem;
+}
+.food-type {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #d9d8da;
+}
+.food-type p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: #a0a3ac;
+}
+.number:hover {
+  color: black;
+  /* font-size: 1.5rem; */
+  cursor: pointer;
+}
